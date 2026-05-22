@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  base-node:
+    image: ubuntu:22.04
+
+    container_name: base-node
+
+    restart: unless-stopped
+
+    ports:
+      - "30303:30303"
+      - "8545:8545"
+
+    volumes:
+      - ../data:/data
+      - ../logs:/logs
+
+    command: tail -f /dev/null
