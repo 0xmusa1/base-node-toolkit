@@ -27,3 +27,11 @@ monitoring/
 - Firewall setup
 - RPC monitoring
 - Docker deployment
+## Advanced Features
+
+- Prometheus metrics
+- Grafana dashboards
+- Reverse proxy support
+- Backup automation
+- Health diagnostics
+- Container monitoring
