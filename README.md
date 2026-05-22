@@ -20,3 +20,10 @@ docker/
 monitoring/
 .github/
 ```
+## Utilities
+
+- Healthcheck scripts
+- Backup automation
+- Firewall setup
+- RPC monitoring
+- Docker deployment
